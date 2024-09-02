@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build:file": "tsc",
+    "start": "npm run build:file && ts-node ${FILE}"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^22.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "winston": "^3.14.2"
+  }
+}
